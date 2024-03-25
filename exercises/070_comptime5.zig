@@ -123,8 +123,8 @@ fn isADuck(possible_duck: anytype) bool {
     // Please make sure MyType has both waddle() and quack()
     // methods:
     const MyType = @TypeOf(possible_duck);
-    const walks_like_duck = if(@hasDecl(MyType, "waddle")) true else false;
-    const quacks_like_duck = if(@hasDecl(MyType, "quack")) true else false;
+    const walks_like_duck = ???;
+    const quacks_like_duck = ???;
 
     const is_duck = walks_like_duck and quacks_like_duck;
 
